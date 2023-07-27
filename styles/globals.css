@@ -227,3 +227,17 @@ body {
     font-size: 10pt;
   }
 }
+
+@media (max-height: 760px) {
+  .mainPage {
+    padding-top: 2px;
+  }
+  .personalInfo {
+    margin-top: 30px;
+    padding: 50px 0;
+    row-gap: 15px;
+  }
+  .personImg {
+    margin-top: -130px;
+  }
+}

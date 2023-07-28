@@ -7,10 +7,17 @@ import { FaTiktok } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import Link from "next/link";
+import doted from "../../public/assets/png&jpg/doted.png";
 import NextLink from "next/link";
 const PersonalInfo = () => {
   return (
     <div className="mainPage">
+      <Image
+        src={doted}
+        width={window.innerWidth + 100}
+        height={150}
+        className="dotedImage"
+      />
       <Image src={apecWhite} width={135.28} height={116} />
       <div className="personalInfo">
         <Image src={rnPerson} width={134} height={134} className="personImg" />

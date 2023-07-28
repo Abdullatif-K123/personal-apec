@@ -116,12 +116,20 @@ body {
 /* Styles for screens with a width of 390 pixels or less */
 @media screen and (max-width: 450px) {
   .mainPage {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100vh;
     justify-content: space-between;
     padding-top: 10px;
+  }
+  .dotedImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
   }
   .personalInfo {
     background-color: #f1f1f1;
@@ -133,6 +141,7 @@ body {
     row-gap: 20px;
     padding: 100px 0;
     border-radius: 37px;
+    z-index: 10;
   }
   .personImg {
     border-radius: 30px;
@@ -148,14 +157,14 @@ body {
     color: rgb(72, 72, 72);
     font-weight: bold;
     text-align: center;
-    font-size: 23pt;
+    font-size: 21pt;
   }
   .personNameCarrer > p {
     font-family: "Montserrat";
     color: rgb(112, 112, 112);
     font-weight: 400;
     text-align: center;
-    font-size: 15pt;
+    font-size: 14pt;
   }
   .peronalSocial {
     display: flex;

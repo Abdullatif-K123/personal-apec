@@ -9,16 +9,14 @@ import { FaInstagram } from "react-icons/fa";
 import Link from "next/link";
 import doted from "../../public/assets/png&jpg/doted.png";
 import doted2 from "../../public/assets/svg/Group -1.svg";
+import doted3 from "../../public/assets/svg/Group -3.svg";
+import doted4 from "../../public/assets/svg/Group -4.svg";
+import doted5 from "../../public/assets/svg/Group 511.svg";
 import NextLink from "next/link";
 const PersonalInfo = () => {
   return (
     <div className="mainPage">
-      <Image
-        src={doted2}
-        width={window.innerWidth + 100}
-        height={250}
-        className="dotedImage"
-      />
+      <Image src={doted2} width={500} height={250} className="dotedImage" />
       <Image src={apecWhite} width={135.28} height={116} />
       <div className="personalInfo">
         <Image src={rnPerson} width={134} height={134} className="personImg" />

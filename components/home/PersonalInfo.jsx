@@ -8,12 +8,13 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import Link from "next/link";
 import doted from "../../public/assets/png&jpg/doted.png";
+import doted2 from "../../public/assets/svg/Group -1.svg";
 import NextLink from "next/link";
 const PersonalInfo = () => {
   return (
     <div className="mainPage">
       <Image
-        src={doted}
+        src={doted2}
         width={window.innerWidth + 100}
         height={250}
         className="dotedImage"

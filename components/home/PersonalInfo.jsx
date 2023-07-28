@@ -15,7 +15,7 @@ const PersonalInfo = () => {
       <Image
         src={doted}
         width={window.innerWidth + 100}
-        height={150}
+        height={250}
         className="dotedImage"
       />
       <Image src={apecWhite} width={135.28} height={116} />

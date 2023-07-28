@@ -16,7 +16,7 @@ import NextLink from "next/link";
 const PersonalInfo = () => {
   return (
     <div className="mainPage">
-      <Image src={doted2} width={500} height={250} className="dotedImage" />
+      <Image src={doted2} width={500} height={270} className="dotedImage" />
       <Image src={apecWhite} width={135.28} height={116} />
       <div className="personalInfo">
         <Image src={rnPerson} width={134} height={134} className="personImg" />

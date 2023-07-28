@@ -11,10 +11,10 @@
       <stop offset="0.169" stop-color="#030303"/>
       <stop offset="0.326" stop-color="#0e0e0e"/>
       <stop offset="0.478" stop-color="#212121"/>
-      <stop offset="0.628" stop-color="#3c3c3c"/>
-      <stop offset="0.776" stop-color="#5e5e5e"/>
-      <stop offset="0.92" stop-color="#878787"/>
-      <stop offset="1" stop-color="#a2a2a2"/>
+      <stop offset="0.628" stop-color="#f1f1f1"/>
+      <stop offset="0.776" stop-color="#f1f1f1"/>
+      <stop offset="0.92" stop-color="#f1f1f1"/>
+      <stop offset="1" stop-color="#f1f1f1"/>
     </linearGradient>
     <clipPath id="clip-path-5">
       <path id="Path_10" data-name="Path 10" d="M102.58,136.088a.24.24,0,0,0,.187-.2.118.118,0,0,0-.149-.134.24.24,0,0,0-.187.195.118.118,0,0,0,.149.134" transform="translate(-102.429 -135.756)" fill="none"/>
